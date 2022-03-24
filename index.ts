@@ -25,10 +25,10 @@ ctx.fillRect(0, 0, width, height);
 // modify these to change render
 const constants = Object.freeze({
   count: 125, // increasing this can cause browser to crash
-  margin: width * 0.4, // * max 1
+  margin: width * 0.1, // * max 1
   blur: 0.1, // max 1
-  pointWidth: 7,
-  pointHeight: 3,
+  pointWidth: 20,
+  pointHeight: 20,
   alterationIncremation: 0.5,
 });
 
